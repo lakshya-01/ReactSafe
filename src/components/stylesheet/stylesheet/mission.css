@@ -1,0 +1,49 @@
+/* Container class */
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #18181b; /* Equivalent to bg-zinc-900 */
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem; /* Equivalent to py-16 */
+    padding-bottom: 4rem; /* Equivalent to py-16 */
+    padding-left: 1rem; /* Equivalent to px-4 */
+    padding-right: 1rem; /* Equivalent to px-4 */
+  }
+  
+  @media (min-width: 640px) { /* Equivalent to sm:px-6 */
+    .container {
+      padding-left: 1.5rem; /* sm:px-6 */
+      padding-right: 1.5rem; /* sm:px-6 */
+    }
+  }
+  
+  @media (min-width: 1024px) { /* Equivalent to lg:px-8 */
+    .container {
+      padding-left: 2rem; /* lg:px-8 */
+      padding-right: 2rem; /* lg:px-8 */
+    }
+  }
+  
+  /* Title class */
+  .title {
+    font-size: 3rem; /* Equivalent to text-5xl */
+    color: #f4f4f5; /* Equivalent to text-zinc-100 */
+    font-weight: bold; /* font-bold */
+    text-align: center; /* text-center */
+  }
+  
+  /* Mission text class */
+  .mission-text {
+    margin-top: 2rem; /* Equivalent to mt-8 */
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    line-height: 1.75rem; /* Equivalent to leading-6 */
+    max-width: 64rem; /* Equivalent to max-w-5xl */
+    text-align: center; /* text-center */
+  }
+  
+  /* Shared Tailwind class string */
+  .text-tertiary-color {
+    color: #ffffff; /* Set to white color */
+  }
+  

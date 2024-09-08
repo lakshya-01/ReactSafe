@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-image: url('../images/reaction1.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+}
+
+.content {
+  font-weight: 800;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.continue-button {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.continue-button:hover {
+  background-color: transparent;
+  transition: .4s;
+  color: white;
+}
+.cont {
+  position: relative;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.cont h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.next .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 800;
+  background: var(--primary-color);
+  color: rgb(4, 64, 214);
+  border: 2px rgb(0, 0, 0) solid;
+  border-radius: 5px;
+
+}
+
+.next .btn:hover {
+  transform: scale(0.98);
+  background-color: rgb(19, 18, 18);
+  color: rgb(255, 255, 255);
+}
+
+.social a {
+  margin: 0 5px;
+}
+  .row{
+    width: 100%;
+    margin: 100px 0px 100px 0px;
+  }
+.row p{
+    font-size: 20px;
+}
+ 
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    padding: 20px 0;
+  }
+  
+  footer div {
+    padding: 0 10px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer span {
+    color: #fff;
+  }
+  
+  footer a {
+    padding: 0;
+    color: white;
+  }
+
+  .vid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .vid .center{
+    border: 2px solid black;
+  }
+
+  .vid .center p{
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 800px) {
+    .content h1 {
+      font-size: 70px;
+      font-weight: 600;
+    }
+  }
+
+
+
+  @media (max-width: 700px) {
+    .cont h1 {
+      font-size: 50px;
+      font-weight: 600;
+    }
+  }
+
